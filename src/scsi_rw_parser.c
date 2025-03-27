@@ -763,7 +763,7 @@ void write_mem(DWORD addr, int nSize) small
 	}
 	else if(!ic_erase_flag && !WrittenSectCount)///		very slow
 	{
-		spi_cmd(SPI_SECTORER, addr);
+		spi_cmd(SPI_BLOCKER64, addr);
 		SPI_SS = 1;
 	}
 	//
