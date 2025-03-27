@@ -1,6 +1,10 @@
 # Raccoon-Flash-Explorer-Demo
 Demo/SDK version of RFE
 
+<p align="center">
+ <img src="avatar.ico" alt="qr"/>
+</p>
+
 Это упрощённая версия прошивки.
 В ней отсутствуют:
   Защиты от перегрузок и неправильной полярности.
