@@ -6,6 +6,7 @@ Demo/SDK version of RFE
 </p>
 
 Это упрощённая версия прошивки.
+
 В ней отсутствуют:
   Защиты от перегрузок и неправильной полярности.
   Поддержка 1,8V и автовыбор питания.
@@ -32,6 +33,7 @@ Demo/SDK version of RFE
 
 **********
 This is a simplified version of the firmware.
+
 It does not have:
 Overload and reverse polarity protection.
 1.8V support and automatic power supply selection.
