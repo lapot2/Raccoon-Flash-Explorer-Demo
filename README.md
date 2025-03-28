@@ -39,7 +39,7 @@ Overload and reverse polarity protection.
 1.8V support and automatic power supply selection.
 Changing registers.
 Verification.
-Pintest.
+Pins test.
 Linux support.
 Reduced operating speed.
 USB VID/PID changed to standard.
