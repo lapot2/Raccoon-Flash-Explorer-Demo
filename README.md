@@ -11,7 +11,7 @@ Demo/SDK version of RFE
   Защиты от перегрузок и неправильной полярности.
   Поддержка 1,8V и автовыбор питания.
   Изменение регистров статуса.
-  Верификация.
+  Верификация данных.
   Pintest.
   Поддержка Linux.
   Скорость работы снижена.
@@ -38,7 +38,7 @@ It does not have:
 Overload and reverse polarity protection.
 1.8V support and automatic power supply selection.
 Changing of status registers.
-Verification.
+Verification of data.
 Pins test.
 Linux support.
 Reduced operating speed.
