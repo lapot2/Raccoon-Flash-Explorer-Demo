@@ -15,9 +15,9 @@ WORD * adc_dma()// dummy
 
 
 //
-void vcc_switch(BYTE mode)
+void vcc_switch(BYTE mode)// dummy
 {
-	if(VCC33 == mode)// int pu on / push-pull / 3.3v
+	if(VCC33 == mode)
 	{
 		//
 		GND_ON;
@@ -27,7 +27,7 @@ void vcc_switch(BYTE mode)
 		V18_OFF;
 		VCC_ON;
 	}
-	else if(OFF == mode)// all off / vcc off
+	else if(OFF == mode)
 	{
 		VCC_OFF;
 		PU_EXT_OFF;
