@@ -1,3 +1,0 @@
-;READ SPI TO USB ACCELERATOR
-
-spi_accel:
