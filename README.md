@@ -9,6 +9,7 @@ Demo/SDK version of RFE
 В ней отсутствуют:
   Защиты от перегрузок и неправильной полярности.
   Поддержка 1,8V и автовыбор питания.
+  Изменение регистров.
   Верификация.
   Pintest.
   Поддержка Linux.
@@ -26,6 +27,7 @@ This is a simplified version of the firmware.
 It does not have:
 Overload and reverse polarity protection.
 1.8V support and automatic power supply selection.
+Changing registers.
 Verification.
 Pintest.
 Linux support.
