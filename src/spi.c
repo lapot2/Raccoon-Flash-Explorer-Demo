@@ -15,64 +15,20 @@
 
 WORD spi_ver_err = 0;
 
-//BYTE xdata spi_RDID_id[1] = {0};
-//BYTE xdata spi_REMS_id[2] = {0};
-//BYTE xdata spi_JDID_id[3] = {0};
-
 BYTE xdata spi_id_arr[16] = {0};
 BYTE xdata * spi_RDID_id = spi_id_arr + 0;// NEED 3 BYTES
 BYTE xdata * spi_REMS_id = spi_id_arr + 1;// NEED 3 BYTES
 BYTE xdata * spi_JDID_id = spi_id_arr + 5;// NEED 3 BYTES
 BYTE xdata * spi_UUID_id = spi_id_arr + 8;// NEED 8 BYTES
 
-//BYTE xdata spi_id_arr[17] = {0};
-//BYTE xdata * spi_RDID_id = spi_id_arr + 0;// NEED 3 BYTES
-//BYTE xdata * spi_REMS_id = spi_id_arr + 3;// NEED 3 BYTES
-//BYTE xdata * spi_JDID_id = spi_id_arr + 6;// NEED 3 BYTES
-//BYTE xdata * spi_UUID_id = spi_id_arr + 9;// NEED 8 BYTES
-
 BOOL sfdp_present = 0;
 BOOL vcc_sfdp = 0;
 BYTE xdata spi_regs[3];
-//DWORD data mem_addr;
-
-//sbit SPI_SS     =   P5^4;
-//sbit SPI_HOLD	 	=		P1^6;
-//sbit SPI_WP			=		P1^7;
-//sbit SPI_ORG		=		Px^x;
-
 
 void spi_disable()
 {
 	SPCTL &= ~SPI_ENABLE;
 }
-//
-/*BYTE spi_send(BYTE dat) small
-{
-    SPSTAT = SPIF + WCOL;
-    SPDAT = dat;
-//    while((SPSTAT & SPIF) == 0) ;
-		#pragma asm
-			;
-		spi_send_repeat:
-		MOV A, SPSTAT
-		JNB ACC.7, spi_send_repeat
-		#pragma endasm
-    
-    return SPDAT;
-}*/
-//
-/*BOOL spi_isbusy() small
-{
-    BYTE dat;
-    
-    SPI_SS = 0;
-    spi_send(SPI_RDSR1); 
-    dat = spi_send(0);
-    SPI_SS = 1;
-    
-		return (dat & 0x01);
-}*/
 //
 void spi_write_disable()
 {
@@ -89,44 +45,23 @@ void spi_write_enable() small
     spi_send(SPI_WREN);
     SPI_SS = 1;
 }
-//
-/*void set_ext_addr(char cmd, char addr) small
-{
-		SPI_SS = 0;
-    spi_send(cmd); 
-    spi_send(addr);
-    SPI_SS = 1;
-}*/
+
 //
 //*****************************************
 void spi_cmd(BYTE cmd, DWORD addr) small
 {
-//	while(spi_isbusy());
-//	spi_write_reg(SPI_WREAR, *((char*)&addr), 0xff, 0xff);
+ite_reg(SPI_WREAR, *((char*)&addr), 0xff, 0xff);
 	
 	if(*((char*)&dwMemorySize))//if MSB > 0
 	{
 		spi_write_enable();
-//		spi_write_custom_byte(SPI_WREAR, CONT);
-//		spi_write_custom_byte(*((char*)&addr), END);
 		
 		set_ext_addr(SPI_WREAR, *((char*)&addr));// perm extend addr set
 	}
 	//
 	if(SPI_READ != cmd) spi_write_enable();
 	else if(!(*((char*)&dwMemorySize))) while(spi_isbusy());
-	//
 
-//	if(*((char*)&dwMemorySize))
-//	{
-//		spi_write_enable();
-//		spi_write_custom_byte(SPI_WREAR, CONT);
-//		spi_write_custom_byte(*((char*)&addr), END);
-//	}
-//	else 
-//		if(SPI_READ != cmd) spi_write_enable();
-//		else while(spi_isbusy());
-	
 	//
 	SPI_SS = 0;
 	spi_send(cmd);
@@ -153,12 +88,7 @@ BYTE spi_write_custom_byte(char dat, bool len) small
 {
 	SPI_SS = 0;
 	spi_send(dat);
-	if(len) 
-	{
-		SPI_SS = 1;
-//		delay(1);
-//		while(!TF0);
-	}
+	if(len) SPI_SS = 1;
 	return SPDAT;
 }
 //
@@ -176,7 +106,6 @@ BYTE * spi_send_cmd(BYTE reg, BYTE dummy_cyc, BYTE xdata * regs_arr, BYTE count)
 //BYTE spi_write_reg(BYTE reg, BYTE dat1, BYTE dat2, BYTE dat3)
 BYTE spi_write_reg(BYTE reg, BYTE dat1, BYTE dat2)
 {
-//	while(spi_isbusy());
 	spi_write_enable();
 		
 	SPI_SS = 0;
@@ -185,8 +114,6 @@ BYTE spi_write_reg(BYTE reg, BYTE dat1, BYTE dat2)
 		spi_send(dat1);
 	if(dat2 != 0xFF)
 		spi_send(dat2);
-//	if(dat3 != 0xFF)
-//		spi_send(dat3);
 	SPI_SS = 1;
 	//
 	//
