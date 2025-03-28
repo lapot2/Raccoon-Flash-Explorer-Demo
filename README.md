@@ -29,7 +29,7 @@ Demo/SDK version of RFE
 
 ИСПОЛЬЗОВАНИЕ ДАННОГО ПРОГРАММНОГО И АППАРАТНОГО ОБЕСПЕЧЕНИЯ БЕЗ СООТВЕТСТВУЮЩИХ ЗНАНИЙ, БЕЗ СООТВЕТСТВУЮЩЕГО ОПЫТА, ИЛИ ДЛЯ ЛЮБЫХ ДРУГИХ ЦЕЛЕЙ, КРОМЕ ОЗНАКОМИТЕЛЬНЫХ - ЗАПРЕЩЕНО!
 
-ИСПОЛЬЗУЯ ДАННОЕ ПРОГРАММНОЕ И АППАРАТНОЕ ОБЕСПЕЧЕНИЕ ВЫ АВТОМАТИЧЕСКИ СОГЛАШАЕТЕСЬ С ТЕМ, ЧТО ОТВЕТСТВЕННОСТЬ ЗА ИСПОРЧЕННОЕ ОБОРУДОВАНИЕ, ЗА ПРОТИВОЗАКОННОЕ, ПРОТИВОПРАВНОЕ ПРИМЕНЕНИЕ, И ЗА ЛЮБЫЕ ДРУГИЕ ПОСЛЕДСТВИЯ НЕСЁТЕ ТОЛЬКО ВЫ!
+ИСПОЛЬЗУЯ ДАННОЕ ПРОГРАММНОЕ И АППАРАТНОЕ ОБЕСПЕЧЕНИЕ ВЫ АВТОМАТИЧЕСКИ СОГЛАШАЕТЕСЬ С ТЕМ, ЧТО ОТВЕТСТВЕННОСТЬ ЗА ИСПОРЧЕННОЕ ОБОРУДОВАНИЕ, ЗА ПРОТИВОЗАКОННОЕ, ПРОТИВОПРАВНОЕ ПРИМЕНЕНИЕ, И ЗА ЛЮБЫЕ ДРУГИЕ СВЯЗАННЫЕ С ЕГО ПРИМЕНЕНИЕМ ПОСЛЕДСТВИЯ НЕСЁТЕ ТОЛЬКО ВЫ!
 
 **********
 This is a simplified version of the firmware.
@@ -52,8 +52,8 @@ You can use it as usual, or use it as an SDK for your own tricks)
 
 **********     DISCLAIMER     **********
 
-THIS SOFTWARE AND HARDWARE ARE PROVIDED FOR INFORMATIONAL PURPOSES ONLY!
+THIS SOFTWARE AND HARDWARE ARE POSTED FOR EDUCATIONAL PURPOSES ONLY!
 
-THE USE OF THIS SOFTWARE AND HARDWARE WITHOUT THE RELEVANT KNOWLEDGE, WITHOUT THE RELEVANT EXPERIENCE, OR FOR ANY PURPOSES OTHER THAN INFORMATIONAL - IS PROHIBITED!
+USE OF THIS SOFTWARE AND HARDWARE WITHOUT THE RELEVANT KNOWLEDGE, WITHOUT THE RELEVANT EXPERIENCE, OR FOR ANY PURPOSES OTHER THAN EDUCATIONAL - IS PROHIBITED!
 
-BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR DAMAGED EQUIPMENT, FOR ILLEGAL, UNLAWFUL USE, AND FOR ANY OTHER CONSEQUENCES!
+BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR DAMAGED EQUIPMENT, FOR ILLEGAL, UNLAWFUL USE, AND FOR ANY OTHER CONSEQUENCES RELATED TO ITS USE!
