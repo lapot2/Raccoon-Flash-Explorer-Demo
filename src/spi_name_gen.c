@@ -454,20 +454,6 @@ char * sst(char * name, BYTE * spi_id3)
 	//
 	*spi_id3 = 0;// SST not supported
 	//
-//	case (UINT)0x8C: { mySPIsize = 262144; strTemp = _T("SST25VF020B");}//0x12
-//	break;
-//	case (UINT)0x8D: { mySPIsize = 524288; strTemp = _T("SST25VF040B");}//0x13
-//	break;
-//	case (UINT)0x8E: { mySPIsize = 1048576; strTemp = _T("SST25VF080B");}//0x14
-//	break;
-//	case (UINT)0x41: { mySPIsize = 2097152; strTemp = _T("SST25VF016B");}//0x15
-//	break;
-//	case (UINT)0x4A: { mySPIsize = 4194304; strTemp = _T("SST25VF032B");}//0x16
-//	break;
-//	case (UINT)0x4B: { mySPIsize = 8388608; strTemp = _T("SST25VF064C");}//0x17
-//	break;
-//	case (UINT)0x4C: { mySPIsize = 16777216; strTemp = _T("SST25VF128");}//0x18
-	//
 	return name + len;
 }
 //
