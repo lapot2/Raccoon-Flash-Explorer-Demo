@@ -115,11 +115,6 @@ char * generic(char * name, BYTE * spi_id3)// IF RDID ONLY
 //device id
 //memcpy(memory_name, "W25Q10     ", sizeof(memory_name));
 //memcpy(memory_name+4, ctoa((WORD)size), 3);
-void sst_aai_enable()
-{
-	//AAI enable code
-	spi_write_custom_byte(SST_AAI_EN, END);
-}
 //
 DWORD spi_get_size(BYTE * spi_id3)
 {
@@ -454,7 +449,6 @@ char * sst(char * name, BYTE * spi_id3)
 	len = strlen(str);
 	memcpy(name, str, len);
 	//
-	sst_aai_enable();
 //	SPI_CHIPER = 0x60;
 	SPI_CHIPER = 0xFF;//erase disabled
 	//
