@@ -27,7 +27,7 @@ Demo/SDK version of RFE
 
 ДАННОЕ ПРОГРАММНОЕ И АППАРАТНОЕ ОБЕСПЕЧЕНИЕ ВЫЛОЖЕНО ИСКЛЮЧИТЕЛЬНО В ОЗНАКОМИТЕЛЬНЫХ ЦЕЛЯХ! 
 
-ИСПОЛЬЗОВАНИЕ ДАННОГО ПРОГРАММНОГО И АППАРАТНОГО ОБЕСПЕЧЕНИЕДЛЯ ЛЮБЫХ ДРУГИХ ЦЕЛЕЙ ЗАПРЕЩЕНО!
+ИСПОЛЬЗОВАНИЕ ДАННОГО ПРОГРАММНОГО И АППАРАТНОГО ОБЕСПЕЧЕНИЯ БЕЗ СООТВЕТСТВУЮЩИХ ЗНАНИЙ, БЕЗ СООТВЕТСТВУЮЩЕГО ОПЫТА, ИЛИ ДЛЯ ЛЮБЫХ ДРУГИХ ЦЕЛЕЙ, КРОМЕ ОЗНАКОМИТЕЛЬНЫХ - ЗАПРЕЩЕНО!
 
 ИСПОЛЬЗУЯ ДАННОЕ ПРОГРАММНОЕ И АППАРАТНОЕ ОБЕСПЕЧЕНИЕ ВЫ АВТОМАТИЧЕСКИ СОГЛАШАЕТЕСЬ С ТЕМ, ЧТО ОТВЕТСТВЕННОСТЬ ЗА ИСПОРЧЕННОЕ ОБОРУДОВАНИЕ, ЗА ПРОТИВОЗАКОННОЕ, ПРОТИВОПРАВНОЕ ПРИМЕНЕНИЕ, И ЗА ЛЮБЫЕ ДРУГИЕ ПОСЛЕДСТВИЯ НЕСЁТЕ ТОЛЬКО ВЫ!
 
@@ -54,6 +54,6 @@ You can use it as usual, or use it as an SDK for your own tricks)
 
 THIS SOFTWARE AND HARDWARE ARE PROVIDED FOR INFORMATIONAL PURPOSES ONLY!
 
-USE OF THIS SOFTWARE AND HARDWARE FOR ANY OTHER PURPOSES IS PROHIBITED!
+THE USE OF THIS SOFTWARE AND HARDWARE WITHOUT THE RELEVANT KNOWLEDGE, WITHOUT THE RELEVANT EXPERIENCE, OR FOR ANY PURPOSES OTHER THAN INFORMATIONAL - IS PROHIBITED!
 
 BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR DAMAGED EQUIPMENT, FOR ILLEGAL, UNLAWFUL USE, AND FOR ANY OTHER CONSEQUENCES!
