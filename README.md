@@ -61,7 +61,8 @@ BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY 
 
 **********************************************************************************
 
-https://forum-monitor.net.ru/threads/685863/post-6869854
+[Troubleshoot](https://forum-monitor.net.ru/threads/685863/post-6869854)
+[Assembly guide](https://forum-monitor.net.ru/threads/685863/post-6870264)
 <p align="center">
  <img src="RFE_DIY.jpg" alt="qr"/>
 </p>
