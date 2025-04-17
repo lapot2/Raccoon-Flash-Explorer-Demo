@@ -16,7 +16,6 @@ Demo/SDK version of RFE
   Изменение регистров статуса.
   Верификация данных.
   Pintest.
-  Поддержка Linux.
   Скорость работы снижена.
   USB VID/PID изменены на стандартные.
 
@@ -43,7 +42,6 @@ Overload and reverse polarity protection.
 Changing of status registers.
 Verification of data.
 Pins test.
-Linux support.
 Reduced operating speed.
 USB VID/PID changed to standard.
 
