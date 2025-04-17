@@ -1,6 +1,6 @@
 # Raccoon-Flash-Explorer-Demo
 
-Licensed: [BSD-3-Clause](LICENSE-BSD), [GPL-2.0](GPL-v2.0)
+Licensed: [BSD-3-Clause](LICENSE-BSD), [GPL-2.0](LICENSE-GPL)
 
 Demo/SDK version of RFE
 
