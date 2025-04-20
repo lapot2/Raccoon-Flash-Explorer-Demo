@@ -8,7 +8,7 @@ Demo/SDK version of RFE
  <img src="avatar.ico" alt="qr"/>
 </p>
 
-Это упрощённая версия прошивки.
+Это упрощённая версия прошивки. Работает в 2 раза быстрее чем 341.
 
 В ней отсутствуют:
   Защиты от перегрузок и неправильной полярности.
@@ -34,7 +34,7 @@ Demo/SDK version of RFE
 ИСПОЛЬЗУЯ ДАННОЕ ПРОГРАММНОЕ И АППАРАТНОЕ ОБЕСПЕЧЕНИЕ ВЫ АВТОМАТИЧЕСКИ СОГЛАШАЕТЕСЬ С ТЕМ, ЧТО ОТВЕТСТВЕННОСТЬ ЗА ИСПОРЧЕННОЕ ОБОРУДОВАНИЕ, ЗА ПРОТИВОЗАКОННОЕ, ПРОТИВОПРАВНОЕ ПРИМЕНЕНИЕ, И ЗА ЛЮБЫЕ ДРУГИЕ СВЯЗАННЫЕ С ЕГО ПРИМЕНЕНИЕМ ПОСЛЕДСТВИЯ НЕСЁТЕ ТОЛЬКО ВЫ!
 
 **********
-This is a simplified version of the firmware.
+This is a simplified version of the firmware. Works 2 times faster than 341.
 
 It does not have:
 Overload and reverse polarity protection.
