@@ -10,6 +10,8 @@ Demo/SDK version of RFE
 
 This is a simplified version of the firmware. Works 2 times faster than 341.
 
+Supports chips up to 512 Mbit (64 MB).
+
 It can be assembled from ready-made boards from AliExpress ($2) in 30 minutes.
 
 It does not have:
@@ -41,6 +43,8 @@ BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY 
 
 ********************
 Это упрощённая версия прошивки. Работает в 2 раза быстрее чем 341.
+
+Поддерживаются флешки объёмом до 512мбит(64мбайт).
 
 Собирается из готовых плат с алика за 200р за полчаса
 
