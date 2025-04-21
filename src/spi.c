@@ -50,7 +50,7 @@ void spi_write_enable() small
 //*****************************************
 void spi_cmd(BYTE cmd, DWORD addr) small
 {
-ite_reg(SPI_WREAR, *((char*)&addr), 0xff, 0xff);
+//spi_write_reg(SPI_WREAR, *((char*)&addr), 0xff, 0xff);
 	
 	if(*((char*)&dwMemorySize))//if MSB > 0
 	{
