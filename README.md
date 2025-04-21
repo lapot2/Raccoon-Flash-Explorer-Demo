@@ -8,7 +8,41 @@ Demo/SDK version of RFE
  <img src="avatar.ico" alt="qr"/>
 </p>
 
+This is a simplified version of the firmware. Works 2 times faster than 341.
+
+It can be assembled from ready-made boards from AliExpress ($2) in 30 minutes.
+
+It does not have:
+Overload and reverse polarity protection.
+1.8V support and automatic power supply selection.
+Changing of status registers.
+Verification of data.
+Pins test.
+Reduced operating speed.
+USB VID/PID changed to standard.
+
+Requires minor changes to work with a non-original circuit, you'll figure it out.
+Based on the MSD example from STC.
+The code is very ugly in places, don't pay attention. I learned programming from scratch while creating this project, and didn't have time to remake everything into a beautiful form.
+
+You can use it as usual, or use it as an SDK for your own tricks)
+
+[Troubleshoot](https://forum-monitor.net.ru/threads/685863/post-6869854)
+
+[Assembly guide](https://forum-monitor.net.ru/threads/685863/post-6870264)
+
+**********     DISCLAIMER     **********
+
+THIS SOFTWARE AND HARDWARE ARE POSTED FOR EDUCATIONAL PURPOSES ONLY!
+
+USE OF THIS SOFTWARE AND HARDWARE WITHOUT THE RELEVANT KNOWLEDGE, WITHOUT THE RELEVANT EXPERIENCE, OR FOR ANY PURPOSES OTHER THAN EDUCATIONAL - IS PROHIBITED!
+
+BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR DAMAGED EQUIPMENT, FOR ILLEGAL, UNLAWFUL USE, AND FOR ANY OTHER CONSEQUENCES RELATED TO ITS USE!
+
+********************
 Это упрощённая версия прошивки. Работает в 2 раза быстрее чем 341.
+
+Собирается из готовых плат с алика за 200р за полчаса
 
 В ней отсутствуют:
   Защиты от перегрузок и неправильной полярности.
@@ -37,35 +71,6 @@ Demo/SDK version of RFE
 
 ИСПОЛЬЗУЯ ДАННОЕ ПРОГРАММНОЕ И АППАРАТНОЕ ОБЕСПЕЧЕНИЕ ВЫ АВТОМАТИЧЕСКИ СОГЛАШАЕТЕСЬ С ТЕМ, ЧТО ОТВЕТСТВЕННОСТЬ ЗА ИСПОРЧЕННОЕ ОБОРУДОВАНИЕ, ЗА ПРОТИВОЗАКОННОЕ, ПРОТИВОПРАВНОЕ ПРИМЕНЕНИЕ, И ЗА ЛЮБЫЕ ДРУГИЕ СВЯЗАННЫЕ С ЕГО ПРИМЕНЕНИЕМ ПОСЛЕДСТВИЯ НЕСЁТЕ ТОЛЬКО ВЫ!
 
-**********
-This is a simplified version of the firmware. Works 2 times faster than 341.
-
-It does not have:
-Overload and reverse polarity protection.
-1.8V support and automatic power supply selection.
-Changing of status registers.
-Verification of data.
-Pins test.
-Reduced operating speed.
-USB VID/PID changed to standard.
-
-Requires minor changes to work with a non-original circuit, you'll figure it out.
-Based on the MSD example from STC.
-The code is very ugly in places, don't pay attention. I learned programming from scratch while creating this project, and didn't have time to remake everything into a beautiful form.
-
-You can use it as usual, or use it as an SDK for your own tricks)
-
-[Troubleshoot](https://forum-monitor.net.ru/threads/685863/post-6869854)
-
-[Assembly guide](https://forum-monitor.net.ru/threads/685863/post-6870264)
-
-**********     DISCLAIMER     **********
-
-THIS SOFTWARE AND HARDWARE ARE POSTED FOR EDUCATIONAL PURPOSES ONLY!
-
-USE OF THIS SOFTWARE AND HARDWARE WITHOUT THE RELEVANT KNOWLEDGE, WITHOUT THE RELEVANT EXPERIENCE, OR FOR ANY PURPOSES OTHER THAN EDUCATIONAL - IS PROHIBITED!
-
-BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR DAMAGED EQUIPMENT, FOR ILLEGAL, UNLAWFUL USE, AND FOR ANY OTHER CONSEQUENCES RELATED TO ITS USE!
 
 **********************************************************************************
 
