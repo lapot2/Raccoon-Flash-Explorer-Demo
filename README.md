@@ -8,7 +8,9 @@ Demo/SDK version of RFE
  <img src="avatar.ico" alt="qr"/>
 </p>
 
-This is a simplified version of the firmware. Works 2 times faster than 341.
+> ## [Chip Programmers comparison table Link](https://github.com/lapot2/Performance_of_chip_programmers/blob/main/README.md)
+
+This is a simplified version of the firmware. Works 2 times faster than 341 and 2019.
 
 Supports chips up to 512 Mbit (64 MB).
 
@@ -31,9 +33,9 @@ You can use it as usual, or use it as an SDK for your own tricks)
 
 > Based on STC8H8K64U MCU.
 
-[Troubleshoot](https://forum-monitor.net.ru/threads/685863/post-6869854)
+## [Troubleshoot](https://forum-monitor.net.ru/threads/685863/post-6869854)
 
-[Assembly guide](https://forum-monitor.net.ru/threads/685863/post-6870264)
+## [Assembly guide](https://forum-monitor.net.ru/threads/685863/post-6870264) and it's also here in the archive.
 
 **********     DISCLAIMER     **********
 
@@ -44,7 +46,10 @@ USE OF THIS SOFTWARE AND HARDWARE WITHOUT THE RELEVANT KNOWLEDGE, WITHOUT THE RE
 BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR DAMAGED EQUIPMENT, FOR ILLEGAL, UNLAWFUL USE, AND FOR ANY OTHER CONSEQUENCES RELATED TO ITS USE!
 
 ********************
-Это упрощённая версия прошивки. Работает в 2 раза быстрее чем 341.
+
+> ## [Сравнительная таблица программаторов](https://github.com/lapot2/Performance_of_chip_programmers/blob/main/README.md)
+
+Это упрощённая версия прошивки. Работает в 2 раза быстрее чем 341 и 2019.
 
 Поддерживаются флешки объёмом до 512мбит(64мбайт).
 
@@ -67,9 +72,9 @@ BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY 
 
 > Процессор STC8H8K64U.
 
-[Решение проблем](https://forum-monitor.net.ru/threads/685863/post-6869854)
+## [Решение проблем](https://forum-monitor.net.ru/threads/685863/post-6869854)
 
-[Инструкция по сборке и прошивке](https://forum-monitor.net.ru/threads/685863/post-6870264)
+## [Инструкция по сборке и прошивке](https://forum-monitor.net.ru/threads/685863/post-6870264)
 
 **********     ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ     **********
 
