@@ -14,7 +14,7 @@ Supports chips up to 512 Mbit (64 MB).
 
 It can be assembled from ready-made boards from AliExpress ($2) in 30 minutes.
 
-It does not have:
+> It does not have:
 Overload and reverse polarity protection.
 1.8V support and automatic power supply selection.
 Changing of status registers.
@@ -28,6 +28,8 @@ Based on the MSD example from STC.
 The code is very ugly in places, don't pay attention. I learned programming from scratch while creating this project, and didn't have time to remake everything into a beautiful form.
 
 You can use it as usual, or use it as an SDK for your own tricks)
+
+> Based on STC8H8K64U MCU.
 
 [Troubleshoot](https://forum-monitor.net.ru/threads/685863/post-6869854)
 
@@ -48,7 +50,7 @@ BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY 
 
 Собирается из готовых плат с алика за 200р за полчаса
 
-В ней отсутствуют:
+>В ней отсутствуют:
   Защиты от перегрузок и неправильной полярности.
   Поддержка 1,8V и автовыбор питания.
   Изменение регистров статуса.
@@ -62,6 +64,8 @@ BY USING THIS SOFTWARE AND HARDWARE YOU AUTOMATICALLY AGREE THAT YOU ARE SOLELY 
 Местами код очень некрасивый, не обращайте внимания. С нуля учился программированию в процессе создания этого проекта, и не успел всё переделать в красивый вид.
 
 Можно пользоваться как обычно, или же использовать как SDK для своих приколюх) 
+
+> Процессор STC8H8K64U.
 
 [Решение проблем](https://forum-monitor.net.ru/threads/685863/post-6869854)
 
