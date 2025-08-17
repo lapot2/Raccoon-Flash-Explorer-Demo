@@ -4,6 +4,8 @@ Licensed: [BSD-3-Clause](LICENSE-BSD), [GPL-2.0](LICENSE-GPL)
 
 Demo/SDK version of RFE
 
+[<imp>Project news</imp>](https://t.me/racc00n_news)
+
 <p align="center">
  <img src="avatar.ico" alt="qr"/>
 </p>
